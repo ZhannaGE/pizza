@@ -27,7 +27,7 @@ function App() {
                             }
                         />
                         <Route
-                            path="pizza/:id"
+                            path=":id"
                             element={
                                 <Suspense fallback={<div>Идёт загрузка...</div>}>
                                     <FullPizza />
